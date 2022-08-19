@@ -1,0 +1,6 @@
+/home/chl/codeTest/slamStudy/week1/bulid/CMakeFiles/rebuild_cache.dir
+/home/chl/codeTest/slamStudy/week1/bulid/CMakeFiles/edit_cache.dir
+/home/chl/codeTest/slamStudy/week1/bulid/CMakeFiles/panorama.dir
+/home/chl/codeTest/slamStudy/week1/bulid/module/CMakeFiles/rebuild_cache.dir
+/home/chl/codeTest/slamStudy/week1/bulid/module/CMakeFiles/edit_cache.dir
+/home/chl/codeTest/slamStudy/week1/bulid/module/CMakeFiles/module.dir
