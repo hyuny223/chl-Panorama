@@ -4,7 +4,7 @@ It is developing.
 The goal of this project is to make a auto-stitching program without OpenCV except cv::Mat and cv::imshow().  
 To achieve this, some functions are needed.  
 
-![image](https://user-images.githubusercontent.com/58837749/194308667-c0ef2ee7-e378-4105-9cce-6dd0ec298761.png)
+![image](https://user-images.githubusercontent.com/58837749/194349056-645485fc-a2d0-48cd-96ab-c07afff3cc8b.png)
 
   
 ## 1. Parser
