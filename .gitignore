@@ -1,1 +1,5 @@
 build
+resources/malibu
+examples/tmp.cpp
+Thirdparty
+cmake_modules
