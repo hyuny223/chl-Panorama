@@ -21,13 +21,13 @@ find_package(Sophus REQUIRED HINTS ${CMAKE_SOURCE_DIR}/Thirdparty/sophus/install
 find_package(CSparse REQUIRED)
 
 if(g2o_FOUND)
-        set(g2o_INCLUDE_DIR /home/chl/codeTest/slamStudy/week5/Thirdparty/g2o/install/include)
-        set(g2o_LIBRARIES /home/chl/codeTest/slamStudy/week5/Thirdparty/g2o/install/lib/libg2o_core.so)
+        set(g2o_INCLUDE_DIR /home/chl/codeTest/slamStudy/week1/Thirdparty/g2o/install/include)
+        set(g2o_LIBRARIES /home/chl/codeTest/slamStudy/week1/Thirdparty/g2o/install/lib/libg2o_core.so)
         message("g2o include : " ${g2o_INCLUDE_DIR})
 endif()
 
 if(Sophus_FOUND)
-        set(Sophus_INCLUDE_DIR /home/chl/codeTest/slamStudy/week5/Thirdparty/sophus/install/include)
+        set(Sophus_INCLUDE_DIR /home/chl/codeTest/slamStudy/week1/Thirdparty/sophus/install/include)
         message("Sophus include : " ${Sophus_INCLUDE_DIR})
 endif()
 

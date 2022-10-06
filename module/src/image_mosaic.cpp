@@ -23,7 +23,7 @@
 int imgcnt = 0;
 
 // double f = 718.856;
-double f = 700.0; // default. 사진 마다 다르다.
+double f = 710.0; // default. 사진 마다 다르다.
 
 int dr[4] = {1, -1, 0, 0};
 int dc[4] = {0, 0, 1, -1};
@@ -174,7 +174,14 @@ void ImageMosaic::stitch(std::unordered_map<std::string, Eigen::Matrix<double, 3
         std::string key = "H" + std::to_string(i) + std::to_string(mid_);
         warpImage(images_.at(i), canvas, mask, matrices[key], offset);
     }
-
+    cv::imshow("canvas", canvas);
+    while(1)
+    {
+        if(cv::waitKey() == 27)
+        {
+            break;
+        }
+    }
 
     // 2. 블렌딩 및 그래프 컷 --> 자연스러운 스티칭
 }
