@@ -3,6 +3,9 @@ It is developing.
   
 The goal of this project is to make a auto-stitching program without OpenCV except cv::Mat and cv::imshow().  
 To achieve this, some functions are needed.  
+
+![image](https://user-images.githubusercontent.com/58837749/194308667-c0ef2ee7-e378-4105-9cce-6dd0ec298761.png)
+
   
 ## 1. Parser
 In order to load images, it would be good to make parser using "filesystem" in C++.  
