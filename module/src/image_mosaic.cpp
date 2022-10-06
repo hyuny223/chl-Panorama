@@ -22,8 +22,9 @@
 
 int imgcnt = 0;
 
-// double f = 718.856;
-double f = 710.0; // default. 사진 마다 다르다.
+double f = 718.856;
+// double f = 710.0; // default. 사진 마다 다르다.
+// double f = 760.0;
 
 int dr[4] = {1, -1, 0, 0};
 int dc[4] = {0, 0, 1, -1};
