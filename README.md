@@ -4,6 +4,8 @@ It is developing.
 The goal of this project is to make a auto-stitching program without OpenCV except cv::Mat and cv::imshow().  
 To achieve this, some functions are needed.  
 
+It is important to use appropriate focal length due to the cylindrical warping. If not, the result will not be accurate.
+
 ![image](https://user-images.githubusercontent.com/58837749/194349056-645485fc-a2d0-48cd-96ab-c07afff3cc8b.png)
 
   
